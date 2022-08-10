@@ -100,7 +100,7 @@ if __name__ == "__main__":
                               " p010le -preset slow -rc vbr -cq 16 \"{}\" "
     worker_01.encode_name = "-Encode"
     worker_01.encode_format = ".mkv"
-    worker_01.new_dir_to_encode = False
+    worker_01.new_dir_to_encode = True
     if os.path.exists("Recovery.json"):
         worker_01.encode_start()
     else:

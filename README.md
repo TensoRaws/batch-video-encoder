@@ -1,7 +1,9 @@
 # batch-video-encoder
-Encode all videos in folder at a time
+
+Encode all videos in folder at a time with ffmpeg commads
 
 ### Prerequisites
+
 The following dependencies are recommended
 
 * **[Python](https://www.python.org/downloads/)**  3.6 or above
@@ -9,13 +11,13 @@ The following dependencies are recommended
 
 ## Getting Started
 
-### Encode all videos in a folder
+#### IN ` if __name__ == "__main__": `
 
-set ffmpeg config like ` echo y | ffmpeg -i  \"{}\" -c:a aac -ac 2 -c:v hevc_nvenc -profile main10 \"{}\" ` before start in ` if __name__ == "__main__": `
-
-`\"{}\"` is the input and output file path
+* set ffmpeg config like ` echo y | ffmpeg -i  \"{}\" -c:a aac -ac 2 -c:v hevc_nvenc -profile main10 \"{}\" ` 
+* `\"{}\"` is the input and output file path
 
 ### Example
+
 ```
 if __name__ == "__main__":
     worker_01 = BatchVideoEncoder()
