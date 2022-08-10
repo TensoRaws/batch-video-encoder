@@ -1,9 +1,11 @@
 # batch-video-encoder
 
-* Encode all videos in folder at a time with ffmpeg commads 
-* The original non-video-files will be retained in relative path
+## Features
 
-### Prerequisites
+* Encode all videos in folder at a time with ffmpeg commads, and the original non-video-files will be retained in relative path
+* Restore progress
+
+## Prerequisites
 
 The following dependencies are recommended
 
