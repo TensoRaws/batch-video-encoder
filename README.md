@@ -1,16 +1,15 @@
-# batch-video-encoder
+# Batch Video Encoder
 
 ## Features
-
-* Encode all videos in folder at a time with ffmpeg commads, and the original non-video-files will be retained in relative path
-* Restore progress
+* This tool allows you to encode all videos in a folder at once using ffmpeg commands.
+* The original non-video files will be retained in their relative path.
+* Progress can be restored.
 
 ## Prerequisites
+Make sure you have the following dependencies installed and configured:
 
-The following dependencies are recommended
-
-* **[Python](https://www.python.org/downloads/)**  3.6 or above
-* **[FFmpeg](https://www.ffmpeg.org/)** 1.0 or above
+* **[Python](https://www.python.org/downloads/)** 3.6 or above
+* **[FFmpeg](https://www.ffmpeg.org/)** should be installed and added in the environment variables.
 
 ## Getting Started
 
